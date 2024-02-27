@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+			<link rel="stylesheet" href="main.css">
+	    <title>電卓</title>
+	</head>
+	<body>
+	<h3>電卓</h3>	
+	<div class="dentaku">
+	  <div id="calc">
+      <div>
+        <input readonly id="result" type="text" value="0">
+      </div>
+      <div>
+        <button onclick="num_btn(this.innerHTML)">7</button>
+        <button onclick="num_btn(this.innerHTML)">8</button>
+        <button onclick="num_btn(this.innerHTML)">9</button>
+        <button onclick="ope_btn(this.innerHTML)">÷</button>
+      </div>
+      <div>
+        <button onclick="num_btn(this.innerHTML)">4</button>
+        <button onclick="num_btn(this.innerHTML)">5</button>
+        <button onclick="num_btn(this.innerHTML)">6</button>
+        <button onclick="ope_btn(this.innerHTML)">×</button>
+      </div>
+      <div>
+        <button onclick="num_btn(this.innerHTML)">1</button>
+        <button onclick="num_btn(this.innerHTML)">2</button>
+        <button onclick="num_btn(this.innerHTML)">3</button>
+        <button onclick="ope_btn(this.innerHTML)">-</button>
+      </div>
+      <div>
+        <button onclick="num_btn(this.innerHTML)">0</button>
+        <button onclick="num_btn(this.innerHTML)">00</button>
+        <button onclick="period_btn(this.innerHTML)">.</button>
+        <button onclick="ope_btn(this.innerHTML)">+</button>
+      </div>
+      <div>
+        <button onclick="clear_btn()">C</button>
+        <button onclick="equal_btn()">=</button>
+      </div>
+    </div>
+	<script src="main.js"></script>
+	</body>
+</html>
